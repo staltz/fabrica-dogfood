@@ -1,0 +1,12 @@
+description: Fabrica for fabrica
+
+imports:
+  mattpocock:
+    git: github.com/mattpocock/skills
+    ref: main
+    path: skills/engineering
+    only:
+      - skills/retro
+  refactor:
+    git: github.com/staltz/fabrica-blueprint-refactor
+    ref: master

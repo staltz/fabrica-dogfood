@@ -1,0 +1,12 @@
+# Written by `fabrica lock`. Don't edit by hand.
+# It pins every import to an exact commit; `fabrica upgrade` moves the pins.
+imports:
+  mattpocock:
+    git: github.com/mattpocock/skills
+    ref: main
+    path: skills/engineering
+    commit: 49dd158d1076134a641b33efb035946536778336
+  refactor:
+    git: github.com/staltz/fabrica-blueprint-refactor
+    ref: master
+    commit: 89145a9f8086fd102023dde5fad5414167b7fe54
